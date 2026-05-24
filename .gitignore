@@ -1,0 +1,24 @@
+# ── Secrets (NEVER commit these) ─────────────────────────────────────
+.env
+
+# ── Build artifacts ───────────────────────────────────────────────────
+mood_tracker
+mood_tracker.exe
+mood_test
+mood_test.exe
+*.o
+
+# ── Runtime temp files ────────────────────────────────────────────────
+response.txt
+supa_log.txt
+
+# ── SQLite DB (local data, not source code) ───────────────────────────
+moods.db
+
+# ── OS / IDE junk ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
